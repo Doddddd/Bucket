@@ -5,7 +5,8 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/rclone/rclone/releases/download/v1.70.3/rclone-v1.70.3-windows-amd64.zip"
+            "url": "https://github.com/rclone/rclone/releases/download/v1.70.3/rclone-v1.70.3-windows-amd64.zip",
+            "hash": ""
         }
     },
     "extract_dir": "rclone-v1.70.3-windows-amd64",

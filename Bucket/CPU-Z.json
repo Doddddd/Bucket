@@ -5,7 +5,8 @@
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://download.cpuid.com/cpu-z/cpu-z_2.16-cn.zip"
+            "url": "https://download.cpuid.com/cpu-z/cpu-z_2.16-cn.zip",
+            "hash": ""
         }
     },
     "bin": [

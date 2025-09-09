@@ -5,7 +5,8 @@
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://dl.google.com/android/repository/commandlinetools-win-13114758_latest.zip"
+            "url": "https://dl.google.com/android/repository/commandlinetools-win-13114758_latest.zip",
+            "hash": ""
         }
     },
     "extract_dir": "cmdline-tools",

@@ -5,7 +5,8 @@
     "license": "AGPL-3.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Icalingua-plus-plus/Icalingua-plus-plus/releases/download/v2.12.28/Icalingua++-2.12.28_x64.exe#/dl.7z"
+            "url": "https://github.com/Icalingua-plus-plus/Icalingua-plus-plus/releases/download/v2.12.28/Icalingua++-2.12.28_x64.exe#/dl.7z",
+            "hash": ""
         }
     },
     "pre_install": [

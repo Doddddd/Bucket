@@ -5,7 +5,8 @@
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://app.qianjiapp.com/qianji_437_1399.zip"
+            "url": "https://app.qianjiapp.com/qianji_437_1399.zip",
+            "hash": ""
         }
     },
     "extract_dir": "qianji_437_1399",

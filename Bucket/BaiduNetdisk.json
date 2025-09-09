@@ -5,7 +5,8 @@
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "http://issuecdn.baidupcs.com/issue/netdisk/yunguanjia/BaiduNetdisk_7.59.0.103.exe#dl.7z"
+            "url": "http://issuecdn.baidupcs.com/issue/netdisk/yunguanjia/BaiduNetdisk_7.59.0.103.exe#dl.7z",
+            "hash": ""
         }
     },
     "shortcuts": [

@@ -5,7 +5,8 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ollama/ollama/releases/download/v0.10.1/OllamaSetup.exe"
+            "url": "https://github.com/ollama/ollama/releases/download/v0.10.1/OllamaSetup.exe",
+            "hash": ""
         }
     },
     "innosetup": true,

@@ -5,7 +5,8 @@
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "http://www.airexplorer.net/downloads/AirExplorer-OnlineInstaller.exe#/dl.7z"
+            "url": "http://www.airexplorer.net/downloads/AirExplorer-OnlineInstaller.exe#/dl.7z",
+            "hash": ""
         }
     },
     "shortcuts": [

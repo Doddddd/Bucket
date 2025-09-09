@@ -5,7 +5,8 @@
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://www.mindgems.com/software/FolderSizePortable.zip"
+            "url": "https://www.mindgems.com/software/FolderSizePortable.zip",
+            "hash": ""
         }
     },
     "shortcuts": [

@@ -5,7 +5,8 @@
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://dl.todesk.com/windows/ToDesk_Setup.exe#/dl.7z"
+            "url": "https://dl.todesk.com/windows/ToDesk_Setup.exe#/dl.7z",
+            "hash": ""
         }
     },
     "pre_install": [

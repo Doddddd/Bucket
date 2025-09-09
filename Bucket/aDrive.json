@@ -5,7 +5,8 @@
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://cdn.aliyundrive.net/downloads/apps/desktop/aDrive-6.8.7.exe#/dl.7z"
+            "url": "https://cdn.aliyundrive.net/downloads/apps/desktop/aDrive-6.8.7.exe#/dl.7z",
+            "hash": ""
         }
     },
     "shortcuts": [

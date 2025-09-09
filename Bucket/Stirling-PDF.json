@@ -5,7 +5,8 @@
     "license": "GPL-3.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Stirling-Tools/Stirling-PDF/releases/download/v1.1.1/win-Stirling-PDF-portable-Server.exe"
+            "url": "https://github.com/Stirling-Tools/Stirling-PDF/releases/download/v1.1.1/win-Stirling-PDF-portable-Server.exe",
+            "hash": ""
         }
     },
     "shortcuts": [

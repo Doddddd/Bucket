@@ -5,7 +5,8 @@
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://www.nirsoft.net/utils/batteryinfoview.zip"
+            "url": "https://www.nirsoft.net/utils/batteryinfoview.zip",
+            "hash": ""
         }
     },
     "shortcuts": [
