@@ -1,12 +1,12 @@
 {
-    "version": "3.36.1.445",
+    "version": "3.37.1.426",
     "description": "腾讯会议",
     "homepage": "https://meeting.tencent.com",
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://updatecdn.meeting.qq.com/cos/8291c7a5f62480b0926c861880183ad9/TencentMeeting_0300000000_3.36.1.445.publish.officialwebsite.exe#/dl.7z",
-            "hash": ""
+            "url": "https://updatecdn.meeting.qq.com/cos/dfb2e606e95bb6fef1066b0283c9008d/TencentMeeting_0300000000_3.37.1.426.publish.officialwebsite.exe#/dl.7z",
+            "hash": "23f899738f746a2b344baccb63491ea8d562036a36dfe401b595f2af13aecdc6"
         }
     },
     "shortcuts": [

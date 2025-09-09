@@ -1,12 +1,12 @@
 {
-    "version": "0.10.1",
+    "version": "0.11.10",
     "description": "Ollama",
     "homepage": "https://github.com/ollama/ollama",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ollama/ollama/releases/download/v0.10.1/OllamaSetup.exe",
-            "hash": ""
+            "url": "https://github.com/ollama/ollama/releases/download/v0.11.10/OllamaSetup.exe",
+            "hash": "45e564568ea3da0b72137f77ebe33cde7ff3c7a59ccf572a2ed333dc23bcede0"
         }
     },
     "innosetup": true,

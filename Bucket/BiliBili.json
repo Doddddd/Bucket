@@ -1,12 +1,12 @@
 {
-    "version": "1.16.5",
+    "version": "1.17.1",
     "description": "哔哩哔哩",
     "homepage": "https://www.bilibili.com",
     "license": "Freeware",
     "architecture": {
         "64bit": {
             "url": "https://dl.hdslb.com/mobile/fixed/bili_win/bili_win-install.exe#/dl.7z",
-            "hash": ""
+            "hash": "2e7348c1633fed247c4c5ca81600327667598a4c0aedf6bf873baadafbaa6048"
         }
     },
     "pre_install": [

@@ -1,12 +1,12 @@
 {
-    "version": "1.16.2",
+    "version": "1.16.3",
     "description": "Sandboxie",
     "homepage": "https://github.com/sandboxie-plus/Sandboxie",
     "license": "GPL-3.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/sandboxie-plus/Sandboxie/releases/download/v1.16.2/Sandboxie-Plus-x64-v1.16.2.exe",
-            "hash": ""
+            "url": "https://github.com/sandboxie-plus/Sandboxie/releases/download/v1.16.3/Sandboxie-Plus-x64-v1.16.3.exe",
+            "hash": "e7ad3640e982e9c5525f58adbaa167b7b641874ee64f00c7428c14e8d7e88e35"
         }
     },
     "checkver": "github",

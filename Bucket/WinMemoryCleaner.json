@@ -1,12 +1,12 @@
 {
-    "version": "3.0.0",
+    "version": "3.0.2",
     "description": "WinMemoryCleaner",
     "homepage": "https://github.com/IgorMundstein/WinMemoryCleaner",
     "license": "GPL-3.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/IgorMundstein/WinMemoryCleaner/releases/download/3.0.0/WinMemoryCleaner.exe",
-            "hash": ""
+            "url": "https://github.com/IgorMundstein/WinMemoryCleaner/releases/download/3.0.2/WinMemoryCleaner.exe",
+            "hash": "5dcaa33af0034ac8f40c8109d5c46858de4f8ed53b9989e7a8cb59ed7cb4dc6d"
         }
     },
     "shortcuts": [
