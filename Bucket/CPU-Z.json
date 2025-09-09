@@ -1,0 +1,28 @@
+{
+    "version": "2.16",
+    "description": "CPU-Z",
+    "homepage": "https://www.cpuid.com/softwares/cpu-z.html",
+    "license": "Freeware",
+    "architecture": {
+        "64bit": {
+            "url": "https://download.cpuid.com/cpu-z/cpu-z_2.16-cn.zip"
+        }
+    },
+    "bin": [
+        [
+            "cpuz_x64.exe",
+            "cpuz"
+        ]
+    ],
+    "shortcuts": [
+        [
+            "cpuz_x64.exe",
+            "CPU-Z"
+        ]
+    ],
+    "persist": "cpuz.ini",
+    "checkver": "Version ([\\d.]+) for windows",
+    "autoupdate": {
+        "url": "https://download.cpuid.com/cpu-z/cpu-z_$version-cn.zip"
+    }
+}

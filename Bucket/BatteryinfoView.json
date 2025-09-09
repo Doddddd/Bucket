@@ -1,0 +1,21 @@
+{
+    "version": "1.26",
+    "description": "BatteryInfoView",
+    "homepage": "https://www.nirsoft.net/utils/battery_information_view.html",
+    "license": "Freeware",
+    "architecture": {
+        "64bit": {
+            "url": "https://www.nirsoft.net/utils/batteryinfoview.zip"
+        }
+    },
+    "shortcuts": [
+        [
+            "BatteryInfoView.exe",
+            "BatteryInfoView"
+        ]
+    ],
+    "checkver": "BatteryInfoView v(\\d+\\.\\d\\d)",
+    "autoupdate": {
+        "url": "https://www.nirsoft.net/utils/batteryinfoview.zip"
+    }
+}

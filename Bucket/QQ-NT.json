@@ -1,0 +1,31 @@
+{
+    "version": "9.9.20.250626",
+    "description": "QQ-NT",
+    "homepage": "https://im.qq.com",
+    "license": "Freeware",
+    "architecture": {
+        "64bit": {
+            "url": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Windows/QQ_9.9.20_250626_x64_01.exe#/dl.7z"
+        }
+    },
+    "extract_dir": "Files",
+    "shortcuts": [
+        [
+            "QQ.exe",
+            "QQ"
+        ]
+    ],
+    "checkver": {
+        "script": [
+            "$jsUrl = 'https://cdn-go.cn/qq-web/im.qq.com_new/latest/rainbow/windowsConfig.js'",
+            "$resp = Invoke-WebRequest -Uri $jsUrl -UseBasicParsing",
+            "$cont = $resp.Content",
+            "$matches = [regex]::Match($cont, 'QQNT/Windows/QQ_([\\d\\.]+)_([\\d]+)_x64_01.exe')",
+            "Write-Output ($matches.Groups[1].Value + '.' + $matches.Groups[2].Value)"
+        ],
+        "regex": "([\\d\\.]+\\.[\\d]+)"
+    },
+    "autoupdate": {
+        "url": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Windows/QQ_$match1_$match2_x64_01.exe#/dl.7z"
+    }
+}
