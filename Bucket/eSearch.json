@@ -1,12 +1,12 @@
 {
-    "version": "15.2.0",
+    "version": "15.2.1",
     "description": "eSearch",
     "homepage": "https://github.com/xushengfeng/eSearch",
     "license": "GPL-3.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/xushengfeng/eSearch/releases/download/15.2.0/eSearch-15.2.0-win32-x64.zip",
-            "hash": "960281b900e6cdb9c42f0b5d9cfc673500350baa7a22750e8d5be138b1021a6a"
+            "url": "https://github.com/xushengfeng/eSearch/releases/download/15.2.1/eSearch-15.2.1-win32-x64.zip",
+            "hash": "960b4c0042c4dc23e42cb809931997562dbd7d3387ef8688af402c5be3951598"
         }
     },
     "shortcuts": [
