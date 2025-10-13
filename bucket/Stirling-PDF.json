@@ -1,12 +1,12 @@
 {
-    "version": "1.3.2",
+    "version": "1.4.0",
     "description": "Stirling-PDF",
     "homepage": "https://github.com/Stirling-Tools/Stirling-PDF",
     "license": "GPL-3.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Stirling-Tools/Stirling-PDF/releases/download/v1.3.2/win-Stirling-PDF-portable-Server.exe",
-            "hash": "8bb2767a1297c56a158f36358594fa2672f2b9075baeb7d0da7789031c4c53e3"
+            "url": "https://github.com/Stirling-Tools/Stirling-PDF/releases/download/v1.4.0/win-Stirling-PDF-portable-Server.exe",
+            "hash": "4f90648e5d9040d0a64b03da009cf0a4e7f42c5628ee804d528b4a94268e9f4a"
         }
     },
     "shortcuts": [
