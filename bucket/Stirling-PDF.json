@@ -1,24 +1,22 @@
 {
-    "version": "1.5.0",
+    "version": "2.0.1",
     "description": "Stirling-PDF",
     "homepage": "https://github.com/Stirling-Tools/Stirling-PDF",
     "license": "GPL-3.0",
+    "depends": "OpenJDK",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Stirling-Tools/Stirling-PDF/releases/download/v1.5.0/win-Stirling-PDF-portable-Server.exe",
-            "hash": "3df01c7dda4c6760742a312e508524735d06eb6203cd801b3b2e40a03a50dea3"
+            "url": "https://github.com/Stirling-Tools/Stirling-PDF/releases/download/v2.0.1/Stirling-PDF.jar",
+            "hash": "dea127c72f62259758bc57f71ab3dd1af21da8d54298d92479d4ff45710c9d00"
         }
     },
+    "pre_install": [
+        "Set-Content -Path \"$dir\\run.cmd\" -Value \"java -jar `\"$dir\\Stirling-PDF.jar`\"\""
+    ],
     "shortcuts": [
         [
-            "win-Stirling-PDF-portable-Server.exe",
+            "run.cmd",
             "Stirling-PDF"
-        ]
-    ],
-    "bin": [
-        [
-            "win-Stirling-PDF-portable-Server.exe",
-            "pdf-server"
         ]
     ],
     "persist": [
@@ -29,6 +27,6 @@
     ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/Stirling-Tools/Stirling-PDF/releases/download/v$version/win-Stirling-PDF-portable-Server.exe"
+        "url": "https://github.com/Stirling-Tools/Stirling-PDF/releases/download/v$version/Stirling-PDF.jar"
     }
 }
