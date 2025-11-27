@@ -1,12 +1,12 @@
 {
-    "version": "4.8.2.2",
+    "version": "4.8.3.3",
     "description": "ToDesk",
     "homepage": "https://www.todesk.com",
     "license": "Freeware",
     "architecture": {
         "64bit": {
             "url": "https://dl.todesk.com/windows/ToDesk_Setup.exe#/dl.7z",
-            "hash": "b94be2d1120c801f26647419f61dddea1845f353585f367c54ff2fe64ac64147"
+            "hash": "1858470244cfa60dbed3c40bb9b91d84e6f4929d924f2d1cdc369dd7f7d30158"
         }
     },
     "pre_install": [
