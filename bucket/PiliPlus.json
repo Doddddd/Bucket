@@ -1,0 +1,26 @@
+{
+    "version": "1.1.5",
+    "description": "PiliPlus",
+    "homepage": "https://github.com/bggRGjQaUbCoE/PiliPlus",
+    "license": "GPL-3.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.5/PiliPlus_windows_1.1.5+4403_x64.zip",
+            "hash": "510ea006a9463c07f6c0be408fe6b18788434fa1727a9e592f4c97a911e633aa"
+        }
+    },
+    "extract_dir": "PiliPlus-Win",
+    "shortcuts": [
+        [
+            "piliplus.exe",
+            "PiliPlus"
+        ]
+    ],
+    "checkver": {
+        "url": "https://api.github.com/repos/bggRGjQaUbCoE/PiliPlus/releases/latest",
+        "regex": "/download/([^/]+)/PiliPlus_windows_(?<main>[\\d.]+)%2B(?<build>\\d+)_x64.zip"
+    },
+    "autoupdate": {
+        "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/$version/PiliPlus_windows_$matchMain+$matchBuild_x64.zip"
+    }
+}
