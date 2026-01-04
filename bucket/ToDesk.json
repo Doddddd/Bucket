@@ -10,6 +10,8 @@
         }
     },
     "pre_install": [
+        "Expand-7zipArchive \"$dir\\app64.7z\" \"$dir\"",
+        "Remove-Item \"$dir\\app32.7z\",\"$dir\\app64.7z\",\"$dir\\`$PLUGINSDIR\",\"$dir\\uninst.exe\",\"$dir\\CrashReport.exe\" -Force -Recurse",
         "if (!(Test-Path \"$persist_dir\\config.ini\")) {",
         "    New-Item -Force -Path \"$persist_dir\\config.ini\" -ItemType File -Value \"[ConfigInfo]`nautoStart=0\" | Out-Null",
         "}"
@@ -24,7 +26,6 @@
         "Logs",
         "config.ini"
     ],
-    "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\",\"$dir\\uninst.exe\",\"$dir\\CrashReport.exe\" -Force -Recurse",
     "checkver": {
         "url": "https://update.todesk.com/windows/uplog.html",
         "regex": ">([\\d.]+)</div>"
