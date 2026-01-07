@@ -15,11 +15,8 @@
             "百度网盘"
         ]
     ],
-    "persist": "users",
     "post_install": [
-        "Remove-Item -Force -Recurse \"$dir\\`$PLUGINSDIR\"",
-        "Remove-Item -Force -Recurse \"$dir\\`$TEMP\"",
-        "Remove-Item -Force -Recurse \"$dir\\YunDetectService.exe\""
+        "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\`$TEMP\", \"$dir\\YunDetectService.exe\" -Force -Recurse"
     ],
     "checkver": {
         "url": "https://pan.baidu.com/disk/cmsdata?do=client",
