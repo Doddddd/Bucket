@@ -1,12 +1,12 @@
 {
-    "version": "0.3.39-2",
+    "version": "0.4.0-18",
     "description": "LM Studio",
     "homepage": "https://lmstudio.ai",
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://installers.lmstudio.ai/win32/x64/0.3.39-2/LM-Studio-0.3.39-2-x64.exe#/dl.7z",
-            "hash": "2f9beff3bc404f4fb968148620049fb22bd0460fb8b98c490574938dda5b8171"
+            "url": "https://installers.lmstudio.ai/win32/x64/0.4.0-18/LM-Studio-0.4.0-18-x64.exe#/dl.7z",
+            "hash": "a3f83cf3a5e7e69017eb038594d8efbf2d30c1d05436acbe9b100e2bf41b0e50"
         }
     },
     "pre_install": [
