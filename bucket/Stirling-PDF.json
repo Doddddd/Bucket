@@ -1,13 +1,13 @@
 {
-    "version": "2.5.3",
+    "version": "2.6.0",
     "description": "Stirling-PDF",
     "homepage": "https://github.com/Stirling-Tools/Stirling-PDF",
     "license": "GPL-3.0",
     "depends": "OpenJDK",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Stirling-Tools/Stirling-PDF/releases/download/v2.5.3/Stirling-PDF.jar",
-            "hash": "120e162b1b4c131ca352542ee79e1a30f4d065211e7538b0b6affbd0425f5214"
+            "url": "https://github.com/Stirling-Tools/Stirling-PDF/releases/download/v2.6.0/Stirling-PDF.jar",
+            "hash": "88436d202c5bb5cbc5581a7251bed4859f8fa2f97e653b19c283aff833e7f3b0"
         }
     },
     "pre_install": "Set-Content -Path \"$dir\\run.cmd\" -Value \"java -jar `\"$dir\\Stirling-PDF.jar`\"\"",
