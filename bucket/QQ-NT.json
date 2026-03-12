@@ -1,12 +1,12 @@
 {
-    "version": "9.9.27.260205",
+    "version": "9.9.28.260311",
     "description": "QQ-NT",
     "homepage": "https://im.qq.com",
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://dldir1.qq.com/qqfile/qq/QQNT/Windows/QQ_9.9.27_260205_x64_01.exe#/dl.7z",
-            "hash": "de1b808bdccf4ad65e17da3b6db73169658bed2f42c81f8967e8219a17313708"
+            "url": "https://dldir1.qq.com/qqfile/qq/QQNT/Windows/QQ_9.9.28_260311_x64_01.exe#/dl.7z",
+            "hash": "6b10ed4214c90ab6db8911a62e2db99074bad659b60f712e99a6cd1869318bea"
         }
     },
     "extract_dir": "Files",
