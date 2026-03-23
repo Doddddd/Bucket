@@ -3,12 +3,8 @@
     "description": "Ollama",
     "homepage": "https://github.com/ollama/ollama",
     "license": "MIT",
-    "architecture": {
-        "64bit": {
-            "url": "https://github.com/ollama/ollama/releases/download/v0.18.2/OllamaSetup.exe",
-            "hash": "3ee478c6ea6c8b3059f2cd2e2093c04a55a36ce4b54228e53276772a54e63510"
-        }
-    },
+    "url": "https://github.com/ollama/ollama/releases/download/v0.18.2/OllamaSetup.exe",
+    "hash": "3ee478c6ea6c8b3059f2cd2e2093c04a55a36ce4b54228e53276772a54e63510",
     "innosetup": true,
     "shortcuts": [
         [

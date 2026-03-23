@@ -3,12 +3,8 @@
     "description": "钱迹",
     "homepage": "https://qianjiapp.com",
     "license": "Freeware",
-    "architecture": {
-        "64bit": {
-            "url": "https://app.qianjiapp.com/qianji_443_1481.zip",
-            "hash": "0d0c05af6d5be935ad0e024f399207f09f2f04a38c1d6772218e1fd933b25214"
-        }
-    },
+    "url": "https://app.qianjiapp.com/qianji_443_1481.zip",
+    "hash": "0d0c05af6d5be935ad0e024f399207f09f2f04a38c1d6772218e1fd933b25214",
     "extract_dir": "qianji_443_1481",
     "shortcuts": [
         [

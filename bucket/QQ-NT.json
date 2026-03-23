@@ -3,12 +3,8 @@
     "description": "QQ-NT",
     "homepage": "https://im.qq.com",
     "license": "Freeware",
-    "architecture": {
-        "64bit": {
-            "url": "https://dldir1.qq.com/qqfile/qq/QQNT/Windows/QQ_9.9.28_260319_x64_01.exe#/dl.7z",
-            "hash": "9856871a4fcc36dc56faedc4e5209f20fe21b23077c2386705dc4a0d509b7b31"
-        }
-    },
+    "url": "https://dldir1.qq.com/qqfile/qq/QQNT/Windows/QQ_9.9.28_260319_x64_01.exe#/dl.7z",
+    "hash": "9856871a4fcc36dc56faedc4e5209f20fe21b23077c2386705dc4a0d509b7b31",
     "extract_dir": "Files",
     "shortcuts": [
         [
