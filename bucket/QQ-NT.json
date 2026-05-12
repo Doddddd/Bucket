@@ -14,10 +14,10 @@
     ],
     "checkver": {
         "url": "https://qq-web.cdn-go.cn/im.qq.com_new/latest/rainbow/windowsConfig.js",
-        "regex": "QQNT/Windows/QQ_([\\d\\.]+)_([\\d]+)_x86_01.exe",
-        "replace": "${1}.${2}"
+        "regex": "QQNT/[\\d.]+/guanwang/([a-f0-9]+)/QQ_([\\d.]+)-(\\d+)_x86_01\\.exe",
+        "replace": "${2}.${3}"
     },
     "autoupdate": {
-        "url": "https://dldir1.qq.com/qqfile/qq/QQNT/Windows/QQ_$match1_$match2_x64_01.exe#/dl.7z"
+        "url": "https://qqdl.gtimg.cn/qqfile/QQNT/$match2/guanwang/$match1/QQ_$match2-$match3_x86_01.exe#/dl.7z"
     }
 }
