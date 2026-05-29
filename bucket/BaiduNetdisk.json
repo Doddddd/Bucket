@@ -1,10 +1,10 @@
 {
-    "version": "8.4.5.103",
+    "version": "8.4.8.102",
     "description": "百度网盘",
     "homepage": "https://pan.baidu.com",
     "license": "Freeware",
-    "url": "http://issuecdn.baidupcs.com/issue/netdisk/yunguanjia/BaiduNetdisk_8.4.5.103.exe#dl.7z",
-    "hash": "529181A0545B1F5050847B318152CBCC8217F1E01B0D2351A5BCC348232D681C",
+    "url": "http://issuecdn.baidupcs.com/issue/netdisk/yunguanjia/BaiduNetdisk_8.4.8.102.exe#dl.7z",
+    "hash": "766c61c6fbfdc8bb84db44a9c90fe2d74d1e0797bdfaaf749af57d0ebc9f2b54",
     "shortcuts": [
         [
             "BaiduNetdisk.exe",
