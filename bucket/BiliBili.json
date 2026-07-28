@@ -1,10 +1,10 @@
 {
-    "version": "1.17.9",
+    "version": "1.18.0",
     "description": "哔哩哔哩",
     "homepage": "https://www.bilibili.com",
     "license": "Freeware",
-    "url": "https://dl.hdslb.com/mobile/pack/bili_win/25025492/public/bilibili-setup-v1.17.9.exe#/dl.7z",
-    "hash": "145cdc95963d068435572a15ad15a1c4797adfa41109e8b08b1e05807d1464ab",
+    "url": "https://dl.hdslb.com/mobile/pack/bili_win/26323053/public/bilibili-setup-v1.18.0.exe#/dl.7z",
+    "hash": "142b277165278bdaf22ed965460e84ca13d733b4793497d129952382663e0af5",
     "pre_install": [
         "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
         "Remove-Item \"$dir\\`$PLUGINSDIR\" -Force -Recurse"
