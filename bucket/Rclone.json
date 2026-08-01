@@ -1,11 +1,11 @@
 {
-    "version": "1.74.4",
+    "version": "1.75.0",
     "description": "Rclone",
     "homepage": "https://github.com/rclone/rclone",
     "license": "MIT",
-    "url": "https://github.com/rclone/rclone/releases/download/v1.74.4/rclone-v1.74.4-windows-amd64.zip",
-    "hash": "ef097ef9de37a57feb7d9f9c7afb34148ad3c65be8025f1d8f7f521554a701ea",
-    "extract_dir": "rclone-v1.74.4-windows-amd64",
+    "url": "https://github.com/rclone/rclone/releases/download/v1.75.0/rclone-v1.75.0-windows-amd64.zip",
+    "hash": "203581f0a7baeae873f2347483a798c79e2eaf5c384a4e9d866aa374f1c89ac0",
+    "extract_dir": "rclone-v1.75.0-windows-amd64",
     "pre_install": [
         "if (Test-Path \"$scoopdir\\apps\\$app\\$old_version\\rclone.conf\") {",
         "    Copy-Item -Path \"$scoopdir\\apps\\$app\\$old_version\\rclone.conf\" \"$dir\\rclone.conf\"",
