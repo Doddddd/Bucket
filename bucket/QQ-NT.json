@@ -1,10 +1,10 @@
 {
-    "version": "9.9.33.260730",
+    "version": "9.9.33.260813",
     "description": "QQ-NT",
     "homepage": "https://im.qq.com",
     "license": "Freeware",
     "url": "https://qq-web.cdn-go.cn/im.qq.com_new/latest/rainbow/windowsConfig.js",
-    "hash": "93d17142909f01636353e5f50fc448697d8363ed7d9c2e07733e757e06fc928c",
+    "hash": "5ade90175fba5c1312a3ff437c9db78ae1a816b6f366df65263c4d6d3088ba0d",
     "pre_install": [
         "$config = Get-Content -Raw \"$dir\\windowsConfig.js\"",
         "$downloadUrl = [regex]::Match($config, '\"ntDownloadX64Url\":\"([^\"]+)\"').Groups[1].Value",
