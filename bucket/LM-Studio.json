@@ -17,7 +17,7 @@
     ],
     "checkver": {
         "url": "https://lmstudio.ai/download",
-        "regex": "win32\\\\\":\\{\\\\\"x64\\\\\":\\{\\\\\"version\\\\\":\\\\\"(?<version>\\d+\\.\\d+\\.\\d+)\\\\\",\\\\\"build\\\\\":\\\\\"(\\d+)",
+        "regex": "(?:^|[^/])win32\\\\?\"[\\s\\S]*?x64\\\\?\"[\\s\\S]*?version\\\\?\"[\\s\\S]*?(?<version>\\d+\\.\\d+\\.\\d+)[\\s\\S]*?build\\\\?\"[\\s\\S]*?:\\\\?\"(\\d+)",
         "replace": "${2}-${1}"
     },
     "autoupdate": {
