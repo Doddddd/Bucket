@@ -1,10 +1,10 @@
 {
-    "version": "151.0.7922.137-1.1",
+    "version": "151.0.7922.169-1.1",
     "description": "unGoogled-Chromium",
     "homepage": "https://github.com/ungoogled-software/ungoogled-chromium-windows",
     "license": "BSD-3-Clause",
-    "url": "https://github.com/ungoogled-software/ungoogled-chromium-windows/releases/download/151.0.7922.137-1.1/ungoogled-chromium_151.0.7922.137-1.1_installer_x64.exe#/dl.7z",
-    "hash": "8a396ed3b09057a14d87b8d7f5764f3f1d5096f14cd87170aebfb954d6270d1a",
+    "url": "https://github.com/ungoogled-software/ungoogled-chromium-windows/releases/download/151.0.7922.169-1.1/ungoogled-chromium_151.0.7922.169-1.1_installer_x64.exe#/dl.7z",
+    "hash": "2c53bb138e45c8de5c6e4d6b4b008c7fb9e69984541bb809a8f1342b750963dd",
     "pre_install": "Expand-7zipArchive \"$dir\\chrome.7z\" -ExtractDir 'Chrome-bin' -Removal",
     "shortcuts": [
         [
