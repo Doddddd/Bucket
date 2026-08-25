@@ -7,7 +7,7 @@
     "hash": "5ade90175fba5c1312a3ff437c9db78ae1a816b6f366df65263c4d6d3088ba0d",
     "pre_install": [
         "$config = Get-Content -Raw -LiteralPath \"$dir\\windowsConfig.js\"",
-        "$urlPattern = '\"ntDownloadX64Url\"\\s*:\\s*\"(?<url>https://qqdl\\.gtimg\\.cn/qqfile/QQNT/(?<release>\\d+(?:\\.\\d+)*)/release/[^/]+/QQ_\\k<release>_(?<build>\\d+)_x64_01\\.exe)\"'",
+        "$urlPattern = '\"ntDownloadX64Url\"\\s*:\\s*\"(?<url>https://qqdl\\.gtimg\\.cn/qqfile/QQNT(?:V2)?/(?<release>\\d+(?:\\.\\d+)*)/release/[^/]+/QQ_\\k<release>_(?<build>\\d+)_x64_01\\.exe)\"'",
         "$download = [regex]::Match($config, $urlPattern)",
         "if (!$download.Success) { throw 'Unable to find the QQ x64 download URL.' }",
         "$downloadUrl = $download.Groups['url'].Value",
@@ -34,7 +34,7 @@
     ],
     "checkver": {
         "url": "https://qq-web.cdn-go.cn/im.qq.com_new/latest/rainbow/windowsConfig.js",
-        "regex": "QQNT/[\\d.]+/release/([a-f0-9]+)/QQ_([\\d.]+)_(\\d+)_x64_01\\.exe",
+        "regex": "QQNT(?:V2)?/[\\d.]+/release/([a-f0-9]+)/QQ_([\\d.]+)_(\\d+)_x64_01\\.exe",
         "replace": "${2}.${3}"
     },
     "autoupdate": {
