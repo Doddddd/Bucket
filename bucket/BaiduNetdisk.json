@@ -18,6 +18,6 @@
         "regex": "BaiduNetdisk_(\\d+.\\d+.\\d+.\\d+).exe"
     },
     "autoupdate": {
-        "url": "http://issuecdn.baidupcs.com/issue/netdisk/yunguanjia/BaiduNetdisk_$version.exe#dl.7z"
+        "url": "https://9c39ab-1996343122.antpcdn.com:19001/b/pkg-ant.baidu.com/issue/netdisk/yunguanjia/BaiduNetdisk_$version.exe#dl.7z"
     }
 }
