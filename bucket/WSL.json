@@ -5,7 +5,10 @@
     "license": "MIT",
     "url": "https://github.com/microsoft/WSL/releases/download/v2.7.13/wsl.2.7.13.x64.msi",
     "hash": "",
-    "checkver": "github",
+    "checkver": {
+        "url": "https://github.com",
+        "jsonpath": "$[0].tag_name"
+    },
     "autoupdate": {
         "url": "https://github.com/microsoft/WSL/releases/download/v$version/wsl.$version.x64.msi"
     }
