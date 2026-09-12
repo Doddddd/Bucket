@@ -6,7 +6,7 @@
     "url": "https://github.com/microsoft/WSL/releases/download/v2.7.13/wsl.2.7.13.x64.msi",
     "hash": "",
     "checkver": {
-        "url": "https://github.com",
+        "url": "https://github.com/microsoft/WSL",
         "jsonpath": "$[0].tag_name"
     },
     "autoupdate": {
