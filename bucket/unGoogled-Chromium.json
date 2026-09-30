@@ -14,7 +14,7 @@
     ],
     "checkver": {
         "github": "https://github.com/ungoogled-software/ungoogled-chromium-windows",
-        "regex": "releases/tag/((?<main>[\\d.]+-\\d).(?<release>\\d))"
+        "regex": "([\\d.]+-[\\d.]+)"
     },
     "autoupdate": {
         "url": "https://github.com/ungoogled-software/ungoogled-chromium-windows/releases/download/$version/ungoogled-chromium_$version_installer_x64.exe#/dl.7z"
