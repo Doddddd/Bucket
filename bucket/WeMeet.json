@@ -20,6 +20,10 @@
         "regex": "https://(?<url>.+\\.exe).*?\"version\":.*?\"([\\d.]+)\""
     },
     "autoupdate": {
-        "url": "https://$matchUrl#/dl.7z"
+        "url": "https://$matchUrl#/dl.7z",
+        "hash": {
+            "url": "https://meeting.tencent.com/web-service/query-download-info?q=%5B%7B%22package-type%22:%22app%22,%22channel%22:%220300000000%22,%22platform%22:%22windows%22%7D%5D&nonce=0000000000000000",
+            "jsonpath": "$['info-list'][0].md5"
+        }
     }
 }
