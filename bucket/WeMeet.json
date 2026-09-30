@@ -1,10 +1,10 @@
 {
-    "version": "3.45.10.411",
+    "version": "3.46.11.413",
     "description": "腾讯会议",
     "homepage": "https://meeting.tencent.com",
     "license": "Freeware",
-    "url": "https://updatecdn.meeting.qq.com/cos/a8ea13e836c8e7400bc9233871cd0563/TencentMeeting_0300000000_3.45.10.411.publish.officialwebsite.exe#/dl.7z",
-    "hash": "58838ce6503119bc94463bbfb4cc7a34ae4c8d9cfeb4a912e96082e793bcb3a9",
+    "url": "https://updatecdn.meeting.qq.com/cos/ef0c9fd2b802666e15dac5fe62aa6b45/TencentMeeting_0300000000_3.46.11.413.publish.officialwebsite.exe#/dl.7z",
+    "hash": "md5:ef0c9fd2b802666e15dac5fe62aa6b45",
     "shortcuts": [
         [
             "wemeetapp.exe",
