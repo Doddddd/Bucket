@@ -13,7 +13,7 @@
     ],
     "post_install": [
         "Remove-Item \"$dir\\`$PLUGINSDIR\",\"$dir\\`$TEMP\",\"$dir\\`$WINDIR\" -Force -Recurse",
-        "Rename-Item \"$dir\\`$_*_\" \"$dir\\$version\""
+        "Get-ChildItem -LiteralPath \"$dir\" -Directory | Where-Object { $_.Name -like '$_*_' } | Select-Object -First 1 | Rename-Item -NewName \"$version\""
     ],
     "checkver": {
         "url": "https://meeting.tencent.com/web-service/query-download-info?q=%5B%7B%22package-type%22:%22app%22,%22channel%22:%220300000000%22,%22platform%22:%22windows%22%7D%5D&nonce=0000000000000000",
