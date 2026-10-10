@@ -1,11 +1,11 @@
 {
-    "version": "457_1577",
+    "version": "459_1580",
     "description": "钱迹",
     "homepage": "https://qianjiapp.com",
     "license": "Freeware",
-    "url": "https://app.qianjiapp.com/qianji_457_1577.zip",
-    "hash": "58d9f9707ee3755f76d8afac6f06e683bad162a37c00ff3c7035d0dbee0cfbf3",
-    "extract_dir": "qianji_457_1577",
+    "url": "https://app.qianjiapp.com/qianji_459_1580.zip",
+    "hash": "a79d51192672a45b966dc627a8e1ca9bdbc2161d83a018dc8510e6682b51c771",
+    "extract_dir": "qianji_459_1580",
     "shortcuts": [
         [
             "qianji.exe",
