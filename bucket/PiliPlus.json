@@ -13,8 +13,21 @@
         ]
     ],
     "checkver": {
-        "url": "https://api.github.com/repos/bggRGjQaUbCoE/PiliPlus/releases/latest",
-        "regex": "/download/([^/]+)/PiliPlus_windows_(?<main>[\\d.]+)%2B(?<build>\\d+)_x64_portable.zip"
+        "script": [
+            "$latest = Invoke-WebRequest -UseBasicParsing -Uri 'https://github.com/bggRGjQaUbCoE/PiliPlus/releases/latest' -Headers @{ 'User-Agent' = 'Scoop' }",
+            "$releaseUri = $latest.BaseResponse.ResponseUri",
+            "if (-not $releaseUri) { $releaseUri = $latest.BaseResponse.RequestMessage.RequestUri }",
+            "if ($releaseUri.AbsolutePath -match '/releases/tag/(?<tag>[^/]+)$') {",
+            "    $tag = [Uri]::UnescapeDataString($matches['tag'])",
+            "} else { Write-Error 'Could not parse latest release tag'; exit 1 }",
+            "$assetsUrl = \"https://github.com/bggRGjQaUbCoE/PiliPlus/releases/expanded_assets/$tag\"",
+            "$assets = Invoke-WebRequest -UseBasicParsing -Uri $assetsUrl -Headers @{ 'User-Agent' = 'Scoop' }",
+            "if ($assets.Content -match 'PiliPlus_windows_(?<main>[\\d.]+)\\+(?<build>\\d+)_x64_portable\\.zip') {",
+            "    $main = $matches['main']; $build = $matches['build']",
+            "} else { Write-Error 'Could not find the Windows portable asset in the latest release'; exit 1 }",
+            "Write-Output \"$tag $main $build\""
+        ],
+        "regex": "^(?<version>[^\\s]+) (?<main>[\\d.]+) (?<build>\\d+)$"
     },
     "autoupdate": {
         "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/$version/PiliPlus_windows_$matchMain+$matchBuild_x64_portable.zip"
