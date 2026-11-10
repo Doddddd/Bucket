@@ -1,10 +1,10 @@
 {
-    "version": "7.4",
+    "version": "7.5",
     "description": "163MusicLyrics",
     "homepage": "https://github.com/jitwxs/163MusicLyrics",
     "license": "Apache-2.0",
-    "url": "https://github.com/jitwxs/163MusicLyrics/releases/download/v7.4/MusicLyricApp-7.4.0-win-x64.zip",
-    "hash": "3f93121bd8d803caac076f6ca7ac30be0dc9fd8a8ad4f853ad27f778cfd3b344",
+    "url": "https://github.com/jitwxs/163MusicLyrics/releases/download/v7.5/MusicLyricApp-7.5.0-win-x64.zip",
+    "hash": "80fab6efe9d05feccde6141071f0ad439ecb91d6244a0b6c45609f34642509a5",
     "pre_install": [
         "if (Test-Path \"$scoopdir\\apps\\$app\\$old_version\\MusicLyricAppSetting.json\") {",
         "    Copy-Item -Path \"$scoopdir\\apps\\$app\\$old_version\\MusicLyricAppSetting.json\" \"$dir\\MusicLyricAppSetting.json\"",
