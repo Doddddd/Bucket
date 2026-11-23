@@ -14,6 +14,6 @@
     "persist": "Caches",
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/Mzying2001/CefFlashBrowser/releases/download/$matchTag/FlashBrowser_x64_v$version.zip"
+        "url": "https://github.com/Mzying2001/CefFlashBrowser/releases/download/$version/FlashBrowser_x64_v$version.zip"
     }
 }
