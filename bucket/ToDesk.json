@@ -1,10 +1,10 @@
 {
-    "version": "5.3.4.0",
+    "version": "5.4.0.0",
     "description": "ToDesk",
     "homepage": "https://www.todesk.com",
     "license": "Freeware",
     "url": "https://dl.todesk.com/windows/ToDesk_Setup.exe#/dl.7z",
-    "hash": "95d43fc9d7d48d408a82c91424869034a5806fe943f4b1ee713639b0b91ad2e0",
+    "hash": "b66693fbab4fb45733f4aa051f2b32a6d8cb8825acd4221376bcaddc0096bc43",
     "pre_install": [
         "Expand-7zipArchive \"$dir\\app64.7z\" \"$dir\"",
         "Remove-Item \"$dir\\app32.7z\",\"$dir\\app64.7z\",\"$dir\\`$PLUGINSDIR\",\"$dir\\uninst.exe\",\"$dir\\CrashReport.exe\" -Force -Recurse",
